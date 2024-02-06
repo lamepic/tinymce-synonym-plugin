@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tinymce Synonym Plugin</title>
+    <script
+      src="https://cdn.tiny.cloud/1/tsqq36a5gk5wirxcqlt6qd7optokfb66bafnixg88glanczk/tinymce/6/tinymce.min.js"
+      referrerpolicy="origin"
+    ></script>
+    <script>
+      tinymce.init({
+        selector: '#app',
+        plugins: 'synonym',
+        toolbar:
+          'undo redo | bold italic underline strikethrough | alignleft aligncenter alignright alignjustify | indent outdent | synonym',
+      })
+    </script>
+    <script type="module" src="/src/main.ts"></script>
+  </head>
+  <body>
+    <div id="app"></div>
+  </body>
+</html>
