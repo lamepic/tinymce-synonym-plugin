@@ -1,8 +1,6 @@
 # TinyMCE Synonym Plugin
 
-## Description
-
-> This plugins allows you to lookup synonyms of words and injects it inside your tinymce editor.
+> This is a tinymce plugin that allows you to lookup synonyms of words and injects it inside your tinymce editor.
 
 ### Prerequisites
 
