@@ -1,0 +1,53 @@
+#result {
+  height: 40vh;
+  overflow: scroll;
+  margin-top: 0.5rem;
+}
+
+#result ul {
+  list-style: none;
+  padding: 0;
+}
+
+#result ul li {
+  padding: 0.5rem;
+  border-radius: 0.2rem;
+}
+
+#result ul li:hover {
+  background-color: rgba(128, 128, 128, 0.338);
+  cursor: pointer;
+}
+
+#result .not-found {
+  color: red;
+  margin-top: 1rem;
+}
+
+#result .loading {
+  height: 50%;
+  text-align: center;
+  font-size: 3rem;
+  display: grid;
+  place-items: center;
+  animation: spin 0.5s linear infinite;
+}
+
+#result .loading:after {
+  content: '🌀';
+  font-size: 2.5rem;
+}
+
+input::placeholder {
+  font-size: 0.9rem !important;
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
