@@ -1,7 +1,7 @@
 {
   "name": "tinymce-synonym-plugin",
   "private": true,
-  "version": "0.0.0",
+  "version": "0.0.1",
   "type": "module",
   "scripts": {
     "dev": "vite",
@@ -12,5 +12,8 @@
     "prettier": "3.2.5",
     "typescript": "^5.2.2",
     "vite": "^5.0.8"
+  },
+  "dependencies": {
+    "@types/tinymce": "^4.6.9"
   }
 }
